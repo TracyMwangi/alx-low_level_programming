@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * Print all the letters except q and e
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 
 int main(void)
