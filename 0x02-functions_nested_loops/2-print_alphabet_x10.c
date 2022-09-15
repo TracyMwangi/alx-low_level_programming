@@ -1,25 +1,26 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - check code
  * print_alphabet_x10 -  prints the alphabet x10
  * Return: 0
  */
-int main(void)
 
+void print_alphabet_x10(void);
 {
-	int alpha;
-	int alpha2;
+	char c;
 
-	for (alpha = 0; alpha <= 9; alpha++)
+	int i = 0;
 
-	{
-		for (alpha2 = 'a'; alpha2 <= 'z'; alpha2++)
+	while (i <= 9)
+{
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			putchar(alpha2);
+			_putchar(c);
 		}
-		putchar('\n');
+		_putchar('\n');
+
+		i++;
 	}
 return (0);
 }
